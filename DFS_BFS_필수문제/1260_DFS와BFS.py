@@ -2,13 +2,13 @@
 def dfs(p):
     global n, count
     visited[p] = 1
-    count += 1
+    count += 1 # 마지막 부분은 띄어쓰기 없애기 위해서 count를 세어준다.
     if count == n:
         print(p+1)
     else:
-        print(p+1, end=' ')
+        print(p+1, end=' ') # 방문한 원소를 출력
     for i in range(n):
-        if visited[i] == 0 and adj[p][i] == 1:
+        if visited[i] == 0 and adj[p][i] == 1: # 인접 노드 중에서 방문하지 않은 노드에 가서 dfs 진행
             dfs(i)
 
 n, m, s = map(int, input().split())
