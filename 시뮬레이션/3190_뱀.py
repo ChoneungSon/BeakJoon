@@ -15,12 +15,12 @@ turn = [0]*num_t
 for i in range(num_t):
     time, direc = input().split()
     if direc == 'L':
-        direc = (d+1) % 4
-    else:
         direc = (d+3) % 4
+    else:
+        direc = (d+1) % 4
     turn[i] = [int(time), direc]
 
-count = 0
+count = 1
 time, direc = turn.pop(0)
 
 while 1:
