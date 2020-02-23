@@ -3,6 +3,7 @@ def find(n, dirs):
     global arr, r, c, cctv, m_count, di, dj
     if n == len(cctv):
         c_arr = copy.deepcopy(arr)
+        count = 0
         for i in range(n):
             p = [cctv[i][0], cctv[i][1]]
             for j in dir_list[cctv[i][2]-1][dirs[i]]:
