@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bcb0788-aa65-4eee-8b61-8c4ee5e44ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A형보충문제/13460_구슬탈출2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형보충문제/14502_연구소_손초능_반복.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/2115_모의벌꿀채취_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/2115_모의벌꿀채취_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/2477_모의차량정비소_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/2477_모의차량정비소_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS_BFS_필수문제/14502_연구소.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS_BFS_필수문제/14502_연구소_손초능_재귀.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../swexpert" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -145,13 +141,11 @@
       <item itemvalue="Python.2115_모의벌꿀채취_손초능" />
       <item itemvalue="Python.13460_구슬탈출2" />
       <item itemvalue="Python.14502_연구소_손초능_반복" />
-      <item itemvalue="Python.14502_연구소_손초능_재귀" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.13460_구슬탈출2" />
         <item itemvalue="Python.14502_연구소_손초능_반복" />
-        <item itemvalue="Python.14502_연구소_손초능_재귀" />
         <item itemvalue="Python.2115_모의벌꿀채취_손초능" />
         <item itemvalue="Python.2477_모의차량정비소_손초능" />
       </list>
@@ -171,10 +165,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="977" y="170" key="FileChooserDialogImpl" timestamp="1583042758860">
+    <state x="977" y="170" key="FileChooserDialogImpl" timestamp="1583125531470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="977" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583042758860" />
+    <state x="977" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583125531470" />
     <state width="1011" height="458" key="GridCell.Tab.0.bottom" timestamp="1583063393095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
