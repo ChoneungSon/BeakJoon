@@ -1,4 +1,4 @@
-def find():
+def find(): # 사다리의 모양에서 조건을 만족하는지 판별하는 함수
     global arr, r, c
     for i in range(c):
         x = 0
@@ -18,13 +18,13 @@ def find():
 
 def brute():
     global arr, r, c, min_cnt
-    for i in range(r*(c+2)):
+    for i in range(r*(c+2)): # 연결할 사다리 1~3개 까지 선택
         xi, yi = i//(c+2), i%(c+2)
         if yi != 0 and yi != c+1 and arr[xi][yi] == 0 and arr[xi][yi-1] == 0 and arr[xi][yi+1] == 0:
             arr[xi][yi] = 1
-            if find():
+            if find(): # 첫 번째에서 찾아지면 min_cnt 1로 변경
                 min_cnt = 1
-            elif min_cnt > 2:
+            elif min_cnt > 2: # 백트레킹, min_cnt보다 큰 값으로 사다리를 추가하는 경우를 막는다.
                 for j in range(i+1, r*(c+2)):
                     xj, yj = j//(c+2), j%(c+2)
                     if yj != 0 and yj != c + 1 and arr[xj][yj] == 0 and arr[xj][yj-1] == 0 and arr[xj][yj+1] == 0:
@@ -51,7 +51,7 @@ for _ in range(m):
     a, b = map(int, input().split())
     arr[a-1][b] = 1
 if find():
-    print(0)
+    print(0) # 사다리 추가 없이 조건 만족하면 0을 출력
 else:
     brute()
     if min_cnt == 4:
