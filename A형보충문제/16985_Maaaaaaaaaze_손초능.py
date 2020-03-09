@@ -1,7 +1,19 @@
 def select(m, v):
-    global choose
+    global choose, min_length
     if m == 5:
-        choose.append(v[:])
+        for i in range(4):
+            rot(v[1])
+            for j in range(4):
+                rot(v[2])
+                for k in range(4):
+                    rot(v[3])
+                    for l in range(4):
+                        rot(v[4])
+                        for d in range(4):
+                            if arr[v[0]][rotj[d]][rotk[d]] == 1 and arr[v[4]][rotj[(d+2)%4]][rotk[(d+2)%4]] == 1:
+                                bfs(d, v[:])
+                                if min_length == 12:
+                                    return
     else:
         for i in range(5):
             if v[i] == -1:
@@ -15,22 +27,27 @@ def rot(x):
     for i in range(5):
         for j in range(5):
             rot_arr[i][j] = arr[x][4-j][i]
-    arr[x] = rot_arr
+    for i in range(5):
+        for j in range(5):
+            arr[x][i][j] = rot_arr[i][j]
 
-def bfs(d):
-    q = [(0, rotj[d], rotk[d], 1)]
+def bfs(d, v):
+    global min_length
+    q = [(0, rotj[d], rotk[d], 0)]
     visit = [[[0]*5 for _ in range(5)] for _ in range(5)]
     while q:
         x, y, k, l = q.pop(0)
-        if x == 4 and y == rotj[(d+2)%4] and k == rotk[(d+2)%4]:
-            if l < min_length:
-                min_length = l
         for i in range(6):
             nx, ny, nk = x+di[i], y+dj[i], k+dk[i]
-            if 0 <= nx < 5 and 0 <= ny < 5 and 0 <= nk < 5 and visit[nx][ny][nk] == 0:
-                visit[nx][ny][nk] = 1
+            if l >= min_length:
+                break
+            elif 0 <= nx < 5 and 0 <= ny < 5 and 0 <= nk < 5 and visit[v[nx]][ny][nk] == 0 and arr[v[nx]][ny][nk] == 1:
+                visit[v[nx]][ny][nk] = 1
                 q.append((nx, ny, nk, l+1))
-
+                if nx == 4 and ny == rotj[(d + 2) % 4] and nk == rotk[(d + 2) % 4]:
+                    if l+1 < min_length:
+                        min_length = l+1
+import pprint
 di = [1, -1, 0, 0, 0, 0]
 dj = [0, 0, 0, 1, 0, -1]
 dk = [0, 0, 1, 0, -1, 0]
@@ -38,6 +55,9 @@ rotj = [0, 0, 4, 4]
 rotk = [0, 4, 4, 0]
 arr = [[list(map(int, input().split())) for _ in range(5)] for _ in range(5)]
 choose = []
+min_length = 5**3 + 1
 select(0, [-1]*5)
-
-print(arr)
+if min_length != 126:
+    print(min_length)
+else:
+    print(-1)
