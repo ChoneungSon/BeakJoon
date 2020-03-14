@@ -1,4 +1,4 @@
-def ok(x, l):
+def ok(x, l): # 주어진 l의 모서리 길이를 가지는 색종이가 들어갈 수 있는지 검사
     global arr
     r, c = x//10, x%10
     for i in range(l):
@@ -20,7 +20,7 @@ def dfs(x, remain, s):
             min_count = s
         return
     else:
-        for i in range(x, 100):
+        for i in range(x, 100): # 빈공간 탐색
             if arr[i//10][i%10]:
                 for j in range(4, -1, -1):
                     if ok(i, j+1) and v[j]:

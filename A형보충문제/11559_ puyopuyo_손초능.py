@@ -1,4 +1,4 @@
-def bfs(x, y, color):
+def bfs(x, y, color): # 처음 시작되는 색과 좌표를 넣고 bfs 진행
     global arr, r, c, di, dj
     cnt = 0
     q, visit = [(x, y)], [[0]*c for _ in range(r)]
@@ -11,7 +11,7 @@ def bfs(x, y, color):
             if 0 <= nx < r and 0 <= ny < c and arr[nx][ny] == color and visit[nx][ny] == 0:
                 visit[nx][ny] = 1
                 q.append((nx, ny))
-    if cnt >= 4:
+    if cnt >= 4: # 뿌요의 수가 4개 이상이면 지우고 1을 반환
         for i in range(r):
             for j in range(c):
                 if visit[i][j]:
@@ -20,7 +20,7 @@ def bfs(x, y, color):
     else:
         return 0
 
-def sort_arr():
+def sort_arr(): # 터진 뿌요에 의해 생기는 공백을 채움
     global arr, r, c
     for i in range(c):
         for j in range(r-1, -1, -1):
@@ -44,6 +44,6 @@ while 1:
     if count:
         sort_arr()
         total += 1
-    else:
+    else: # count가 추가되지 않을 때까지 while 문 작동
         break
 print(total)
