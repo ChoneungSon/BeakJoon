@@ -3,13 +3,13 @@ def find(x, y):
     global n, arr, min_value
     for i in range(1, n-1):
         for j in range(1, n-i):
-            if (x+i < n and y+i < n) and (x+i+j < n and y+i-j > 0) and (x+j < n and y-j > 0):
+            if (x+i < n and y+i < n) and (x+i+j < n and y+i-j > 0) and (x+j < n and y-j > 0): # 2개의 길이 선정
                 v = [[0]*n for _ in range(n)]
-                for m in range(i+1):
+                for m in range(i+1): # 사각형을 1로 둘러쌓는다
                     v[x+m][y+m], v[x+j+m][y-j+m] = 1, 1
                 for m in range(j+1):
                     v[x+m][y-m], v[x+i+m][y+i-m] = 1, 1
-                for ai in range(x+1, x+i+j):
+                for ai in range(x+1, x+i+j): # 사각형 내부에 0인 부분을 1로 채운다.
                     flag = 0
                     for aj in range(n-1):
                         v[ai][aj] = flag
@@ -18,7 +18,7 @@ def find(x, y):
                             if flag == 2:
                                 break
                 count = [0]*5
-                for ai in range(n):
+                for ai in range(n): # 카운트 배열을 만들고, 각 구역의 인구들의 합을 저장
                     for aj in range(n):
                         if v[ai][aj] == 0:
                             if ai < x+j and aj <= y and v[ai][aj] == 0:

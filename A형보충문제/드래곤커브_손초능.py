@@ -3,7 +3,7 @@ di = [0, -1, 0, 1]
 dj = [1, 0, -1, 0]
 n = int(sys.stdin.readline())
 arr = [[0]*101 for _ in range(101)]
-for _ in range(n):
+for _ in range(n): # 원리를 생각해보면, 이전 이동하는 회전 방향들을 최초에 왼쪽으로 회전한 뒤, 그것들의 반대로 회전하면서 직선을 그려나감 
     y, x, d, g = map(int, sys.stdin.readline().split())
     nx, ny = x+di[d], y+dj[d]
     arr[x][y], arr[nx][ny] = 1, 1
