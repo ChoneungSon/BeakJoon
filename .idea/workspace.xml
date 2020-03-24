@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/주사위 윷놀이_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/주사위 윷놀이_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형보충문제/새로운 게임2_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/새로운 게임2_손초능.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.주사위 윷놀이_손초능">
+  <component name="RunManager" selected="Python.새로운 게임2_손초능">
+    <configuration name="새로운 게임2_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/새로운 게임2_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="주사위 윷놀이_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,6 +270,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.새로운 게임2_손초능" />
         <item itemvalue="Python.주사위 윷놀이_손초능" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.시험감독_손초능" />
@@ -282,46 +303,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751752653" />
-    <state width="965" height="169" key="GridCell.Tab.0.bottom" timestamp="1584979761229">
+    <state width="736" height="224" key="GridCell.Tab.0.bottom" timestamp="1585065818354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584604581549" />
-    <state width="965" height="169" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584979761229" />
-    <state width="965" height="169" key="GridCell.Tab.0.center" timestamp="1584979761228">
+    <state width="736" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065818354" />
+    <state width="736" height="224" key="GridCell.Tab.0.center" timestamp="1585065818354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584604581549" />
-    <state width="965" height="169" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584979761228" />
-    <state width="965" height="169" key="GridCell.Tab.0.left" timestamp="1584979761228">
+    <state width="736" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585065818354" />
+    <state width="736" height="224" key="GridCell.Tab.0.left" timestamp="1585065818353">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584604581548" />
-    <state width="965" height="169" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584979761228" />
-    <state width="965" height="169" key="GridCell.Tab.0.right" timestamp="1584979761228">
+    <state width="736" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585065818353" />
+    <state width="736" height="224" key="GridCell.Tab.0.right" timestamp="1585065818354">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584604581549" />
-    <state width="965" height="169" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584979761228" />
-    <state width="965" height="367" key="GridCell.Tab.1.bottom" timestamp="1584979731579">
+    <state width="736" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585065818354" />
+    <state width="698" height="367" key="GridCell.Tab.1.bottom" timestamp="1585060775470">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584604581550" />
-    <state width="965" height="367" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584979731579" />
-    <state width="965" height="367" key="GridCell.Tab.1.center" timestamp="1584979731579">
+    <state width="698" height="367" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585060775470" />
+    <state width="698" height="367" key="GridCell.Tab.1.center" timestamp="1585060775470">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584604581549" />
-    <state width="965" height="367" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1584979731579" />
-    <state width="965" height="367" key="GridCell.Tab.1.left" timestamp="1584979731579">
+    <state width="698" height="367" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585060775470" />
+    <state width="698" height="367" key="GridCell.Tab.1.left" timestamp="1585060775470">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584604581549" />
-    <state width="965" height="367" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1584979731579" />
-    <state width="965" height="367" key="GridCell.Tab.1.right" timestamp="1584979731579">
+    <state width="698" height="367" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585060775470" />
+    <state width="698" height="367" key="GridCell.Tab.1.right" timestamp="1585060775470">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1012" height="347" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584604581550" />
-    <state width="965" height="367" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1584979731579" />
+    <state width="698" height="367" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585060775470" />
     <state x="555" y="54" key="SettingsEditor" timestamp="1583751765888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -368,6 +389,16 @@
           <url>file://$PROJECT_DIR$/A형보충문제/주사위 윷놀이_손초능.py</url>
           <line>3</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A형보충문제/새로운 게임2_손초능.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A형보충문제/새로운 게임2_손초능.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
