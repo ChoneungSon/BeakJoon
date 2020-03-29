@@ -1,11 +1,11 @@
 import sys, copy
-def dfs(m, cnt, sum, cand, flag):
+def dfs(m, cnt, sum, cand, flag): # 인접 경로 찾아서 이동하는 것과 비슷한 알고리즘
     global nums, visit, max_sum
-    if cnt == 10 or flag == 4:
+    if cnt == 10 or flag == 4: # flag는 윷놀이 판을 모두 돈 돌의 수
         max_sum = max(max_sum, sum)
     else:
         for i in range(len(cand)):
-            x, y = cand[i]
+            x, y = cand[i] # cand는 윷놀이 판에 올려져 있는 돌의 위치
             if not(arr[x][y][nums[cnt]-1]):
                 temp = cand[i][:]
                 cand.pop(i)
@@ -28,7 +28,7 @@ def dfs(m, cnt, sum, cand, flag):
                 dfs(m+1, cnt+1, sum+arr[0][nums[cnt]-1][0], copy.deepcopy(cand), flag)
                 cand.pop(); visit[arr[0][nums[cnt]-1][0]][arr[0][nums[cnt]-1][1]] = 0
 
-arr = [
+arr = [ # 윷놀이 판을 담는 배열 생성, 겹치는 번호는 2차 배열로 저장
     [(2, 0), (4, 0), (6, 0), (8, 0), (10, 0)],
     0, [[(4, 0), (6, 0), (8, 0), (10, 0), (12, 0)]],
     0, [[(6, 0), (8, 0), (10, 0), (12, 0), (14, 0)]],

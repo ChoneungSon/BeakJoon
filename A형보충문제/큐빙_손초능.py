@@ -7,23 +7,23 @@ def rot(s):
     elif s == 'B': num = 3
     elif s == 'R': num = 4
     elif s == 'L': num = 5
-    adj = [
+    adj = [ # main 면에 인접하는 면들을 시계방향으로 목록화함
         [3, 4, 2, 5], [2, 4, 3, 5],
         [4, 1, 5, 0], [5, 1, 4, 0],
         [0, 3, 1, 2], [1, 3, 0, 2],
     ]
-    touch = [
+    touch = [ # main 면에 인접하는 면들의 모서리를 목록화함
         [2, 0, 0, 2], [2, 2, 0, 0], [2, 0, 0, 2],
         [2, 2, 0, 0], [2, 2, 0, 0], [2, 0, 0, 2],
     ]
     copy_arr = [[0]*3 for _ in range(3)]
-    for i in range(3):
+    for i in range(3): # main 면을 회전
         for j in range(3):
             if num in (1, 3, 4): copy_arr[i][j] = arr[num][j][2-i]
             else: copy_arr[i][j] = arr[num][2-j][i]
     arr[num] = copy.deepcopy(copy_arr)
     temp = arr[adj[num][3]][touch[num][3]][:]
-    for i in range(4):
+    for i in range(4): # 인접 면들의 모서리를 회전
         x, y, temp_a = adj[num][i], touch[num][i], [0] * 3
         for j in range(3):
             if i % 2:
