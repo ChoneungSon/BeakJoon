@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/뉴스 클러스터링_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/뉴스 클러스터링_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/캐시_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/캐시_손초능.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형보충문제/비밀지도_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/비밀지도_손초능.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A형보충문제/프랜즈4블록_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/프랜즈4블록_손초능.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
@@ -40,6 +39,27 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.비밀지도_손초능">
+    <configuration name="프랜즈4블록_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/프랜즈4블록_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="경사로_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,6 +73,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/경사로_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="비밀지도_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/비밀지도_손초능.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,6 +462,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.비밀지도_손초능" />
+        <item itemvalue="Python.프랜즈4블록_손초능" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.경사로_손초능" />
       </list>
@@ -451,28 +493,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751752653" />
-    <state width="1515" height="306" key="GridCell.Tab.0.bottom" timestamp="1585588898693">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1585730180449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585588898693" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585730180449" />
     <state width="1234" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1515" height="306" key="GridCell.Tab.0.center" timestamp="1585588898692">
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1585730180449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="306" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585588898692" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585730180449" />
     <state width="1234" height="306" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1515" height="306" key="GridCell.Tab.0.left" timestamp="1585588898692">
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1585730180448">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="306" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585588898692" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585730180448" />
     <state width="1234" height="306" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1515" height="306" key="GridCell.Tab.0.right" timestamp="1585588898693">
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1585730180449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="306" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585588898693" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585730180449" />
     <state width="1234" height="306" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
     <state width="1515" height="306" key="GridCell.Tab.1.bottom" timestamp="1585588898695">
