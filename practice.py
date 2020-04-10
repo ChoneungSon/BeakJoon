@@ -1,15 +1,15 @@
-# import time
-# start = time.time()
-# A = ['a', 'b', 'd', 'c']
-#
-#
-# B = [0]*100000
-# for i in range(100000):
-#     # for j in range(i, 100000):
-#     B[i] += 1
-# print((time.time()-start)*100000//60)
-r = ''
-for i in range(0, 1001):
-    r += str(i)
+dir =[
+    "/",
+    "/hello",
+    "/hello/tmp",
+    "/root",
+    "/root/abcd",
+    "/root/abcd/etc",
+    "/root/abcd/hello"
+]
 
-print(r)
+dic = {}
+for i in range(1, len(dir)):
+    lst = list(dir[i].split('/'))
+    for j in range(len(lst)-1):
+        dic[lst[j]]
