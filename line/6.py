@@ -1,0 +1,5 @@
+A = dict()
+A['hello'] = dict()
+A['abcd'] = dict()
+print(dict.__dir__)
+print(A)
