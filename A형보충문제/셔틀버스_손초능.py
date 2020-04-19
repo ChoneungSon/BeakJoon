@@ -2,8 +2,8 @@ def solution(n, t, m, timetable):
     length, sort_time, start, idx = len(timetable), [], 540, 0
     for i in range(length):
         hour, min = map(int, timetable[i].split(":"))
-        sort_time.append(hour * 60 + min)
-    sort_time.sort()
+        sort_time.append(hour * 60 + min) # 시간을 초로 환산
+    sort_time.sort() # 정렬
     for i in range(n):
         cnt = 0
         for j in range(m):
