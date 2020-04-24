@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/불량 사용자_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/불량 사용자_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/호텔 방 배정.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/호텔 방 배정.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형보충문제/징검다리 건너기_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/징검다리 건너기_손초능.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +160,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/튜플_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="캐시_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/캐시_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="자동완성_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/자동완성_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="압축_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/압축_손초능.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,69 +399,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="캐시_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/캐시_손초능.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="자동완성_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/자동완성_손초능.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="압축_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/압축_손초능.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.호텔 방 배정" />
@@ -440,76 +439,76 @@
     </state>
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585833294616" />
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751752653" />
-    <state width="1899" height="397" key="GridCell.Tab.0.bottom" timestamp="1587639130843">
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom" timestamp="1587650511392">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="397" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586507025174" />
-    <state width="1899" height="397" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587639130843" />
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511392" />
     <state width="1234" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="397" key="GridCell.Tab.0.center" timestamp="1587639130842">
+    <state width="1899" height="340" key="GridCell.Tab.0.center" timestamp="1587650511392">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="397" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586507025174" />
-    <state width="1899" height="397" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587639130842" />
+    <state width="1899" height="340" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511392" />
     <state width="1234" height="306" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1899" height="397" key="GridCell.Tab.0.left" timestamp="1587639130842">
+    <state width="1899" height="340" key="GridCell.Tab.0.left" timestamp="1587650511391">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098447" />
     <state width="1515" height="397" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586507025173" />
-    <state width="1899" height="397" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587639130842" />
+    <state width="1899" height="340" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511391" />
     <state width="1234" height="306" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1899" height="397" key="GridCell.Tab.0.right" timestamp="1587639130842">
+    <state width="1899" height="340" key="GridCell.Tab.0.right" timestamp="1587650511392">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="397" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586507025174" />
-    <state width="1899" height="397" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587639130842" />
+    <state width="1899" height="340" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511392" />
     <state width="1234" height="306" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585496771020" />
     <state width="698" height="367" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="340" key="GridCell.Tab.1.bottom" timestamp="1587632784513">
+    <state width="1899" height="340" key="GridCell.Tab.1.bottom" timestamp="1587650511393">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839999" />
     <state width="1515" height="256" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587632784513" />
+    <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511393" />
     <state width="1234" height="306" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966290" />
-    <state width="1899" height="340" key="GridCell.Tab.1.center" timestamp="1587632784513">
+    <state width="1899" height="340" key="GridCell.Tab.1.center" timestamp="1587650511393">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="340" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587632784513" />
+    <state width="1899" height="340" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511393" />
     <state width="1234" height="306" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="340" key="GridCell.Tab.1.left" timestamp="1587632784513">
+    <state width="1899" height="340" key="GridCell.Tab.1.left" timestamp="1587650511393">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="340" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587632784513" />
+    <state width="1899" height="340" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511393" />
     <state width="1234" height="306" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="340" key="GridCell.Tab.1.right" timestamp="1587632784513">
+    <state width="1899" height="340" key="GridCell.Tab.1.right" timestamp="1587650511393">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="340" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587632784513" />
+    <state width="1899" height="340" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587650511393" />
     <state width="1234" height="306" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585496771021" />
     <state width="698" height="367" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
     <state x="555" y="54" key="SettingsEditor" timestamp="1585833302425">
