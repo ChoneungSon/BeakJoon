@@ -30,11 +30,11 @@ def solution2(k, room_number):
     for i in range(len(room_number)):
         num = room_number[i]
         while 1:
-            if num not in rooms:
+            if num not in rooms: # num 이 rooms에 존재하지 않는 경우
                 rooms[num] = num + 1
                 room_number[i] = num
                 break
-            temp = num
+            temp = num # num 이 rooms에 존재하는 경우
             num = rooms[num]
             if rooms.get(num): rooms[temp] = rooms[num] + 1
     return room_number

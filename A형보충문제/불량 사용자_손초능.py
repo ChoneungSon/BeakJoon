@@ -2,8 +2,8 @@ def solution(user_id, banned_id):
     answer, adj, visited = 0, [[0]*len(banned_id) for _ in range(len(user_id))], []
     for i in range(len(user_id)):
         for j in range(len(banned_id)):
-            if find(user_id[i], banned_id[j]): adj[i][j] = 1
-    def dfs(visit, cnt):
+            if find(user_id[i], banned_id[j]): adj[i][j] = 1 # 각 불량 사용자에 걸리는지 체크
+    def dfs(visit, cnt): # dfs로 경우의 수 구하기
         nonlocal user_id, banned_id, answer, visited
         if cnt == len(banned_id):
             if visit not in visited:
