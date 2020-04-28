@@ -1,27 +1,18 @@
 def solution(food_times, k):
-    left, right = 0, 100000001
-    while 1:
-        mean, count = (left + right) // 2, 0
-        cand_times = food_times[:]
-        for i in range(len(food_times)):
-            if cand_times[i]:
-                if cand_times[i] >= mean:
-                    count += mean - left
-                    if cand_times[i] == mean: cand_times[i] = 0
-                else:
-                    right = mean
-                    break
-        else:
-            if k >= count:
-                k -= count
-                food_times, left, right = cand_times[:], mean, 100000001
-                if k == count:
-                    for i in range(len(food_times)):
-                        if food_times[i]: return i + 1
+    i, length, pre, sort_time = 0, len(food_times), 0, sorted(food_times)
+    if sum(food_times) <= k: return -1
+    while i < len(food_times):
+        if pre != sort_time[i]:
+            if k >= (sort_time[i] - pre) * length:
+                k -= (sort_time[i] - pre) * length
+                pre = sort_time[i]
             else:
-                right = mean
-        if right - left == 1: break
-    return -1
+                k, cnt = k%length+1, 0
+                for j in range(len(food_times)):
+                    if food_times[j] > pre:
+                        cnt += 1
+                        if cnt == k: return j+1
+        i += 1
+        length -= 1
 
-
-print(solution([3, 1, 2], 5))
+print(solution([5]*10, 15))
