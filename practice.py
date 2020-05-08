@@ -12,3 +12,8 @@
 #
 # print(solution([["100","ryan","music","2"],["200","apeach","math","2"],["300","tube","computer","3"],["400","con","computer","4"],["500","muzi","music","3"],["600","apeach","music","2"]]))
 
+import math
+
+print(math.tan(math.degrees(45)))
+print(math.tan(0))
+print(math.atan2(0, 10))
