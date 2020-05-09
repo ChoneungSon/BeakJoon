@@ -1,28 +1,37 @@
 import pprint
 def solution(board):
-    r, c, column = len(board), len(board[0]), []
-    answer, visited = 0, [0] * c
-    def yes_no(x, y, value):
-        nonlocal board, r, c, column, visited, answer
-        point, flag = [], 0
-        for i in range(-2, 3):
-            for j in range(-2, 3):
-                nx, ny = x+i, y+j
-                if 0 <= nx < r and 0 <= ny < c:
-                    if board[nx][ny] == value:
-                        point.append((nx, ny))
-                        if flag==0 and visited[ny]: flag = 1
-                    elif nx-1 >= 0 and flag==0:
-                        if ny-1 >= 0 and board[nx-1][ny]==value and board[nx][ny-1]==value and board[nx-1][ny-1]==value: flag = 1
-                        if ny+1 < c and board[nx-1][ny]==value and board[nx][ny+1]==value and board[nx-1][ny+1]==value: flag = 1
-        for i in range(4):
-            board[point[i][0]][point[i][1]] = 0
-            if flag: visited[point[i][1]] = 1
-        if flag == 0: answer += 1
+    r, c = len(board), len(board[0])
+    dx, dy = [0, 1, 0], [1, 0, -1]
+    answer, visited, visit = 0, [[0] * c for _ in range(r)], [0] * c
     for i in range(r):
         for j in range(c):
             if board[i][j]:
-                yes_no(i, j, board[i][j])
+                visited[i][j], flag, value = 1, 0, board[i][j]
+                q = [(i, j)]
+                x_list, y_list, point = [i], [j], []
+                while q:
+                    x, y = q.pop(0)
+                    for k in range(3):
+                        nx, ny = x+dx[k], y+dy[k]
+                        if 0 <= nx < r and 0 <= ny < c and board[nx][ny] == value and visited[nx][ny] == 0:
+                            visited[nx][ny] = 1
+                            q.append((nx, ny))
+                            if nx not in x_list: x_list.append(nx)
+                            if ny not in y_list: y_list.append(ny)
+                for k in range(len(x_list)):
+                    for m in range(len(y_list)):
+                        point.append((x_list[k], y_list[m]))
+                for k in range(6):
+                    x, y = point[k]
+                    if x-1 >= 0 and board[x][y] != value and board[x-1][y] == value:
+                        flag = 1; break
+                    if board[x][y] != value and visit[y]:
+                        flag = 1; break
+                for k in range(6):
+                    if board[point[k][0]][point[k][1]] == value: board[point[k][0]][point[k][1]] = 0
+                if flag:
+                    for k in range(len(y_list)): visit[y_list[k]] = 1
+                else: answer += 1
     return answer
 
 
