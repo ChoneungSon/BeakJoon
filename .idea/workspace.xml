@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A형보충문제/10844_쉬운 계단 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형보충문제/1904_01타일.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/기둥과 보 설치_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/문자열 압축_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/블록 이동하기_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/자물쇠와 열쇠_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘 수업/5247_연산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/알고리즘 수업/5248_그룹 나누기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형보충문제/1904_01타일.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/1904_01타일.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +47,8 @@
       <recent name="D:\BeakJoon\A형보충문제" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10844_쉬운 계단 수">
-    <configuration name="정수 삼각형_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.블록 이동하기_손초능">
+    <configuration name="블록 이동하기_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +60,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/정수 삼각형_손초능.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/블록 이동하기_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="자물쇠와 열쇠_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/자물쇠와 열쇠_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="계단 오르기_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/계단 오르기_손초능.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,70 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="계단 오르기_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/계단 오르기_손초능.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10844_쉬운 계단 수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/10844_쉬운 계단 수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1904_01타일" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/1904_01타일.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5208_전기버스2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5247_연산" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,7 +291,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 수업/5208_전기버스2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 수업/5247_연산.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +300,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5209_최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5248_그룹 나누기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,28 +312,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 수업/5209_최소 생산 비용.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="큐빙_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/큐빙_손초능.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘 수업/5248_그룹 나누기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -465,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10844_쉬운 계단 수" />
-        <item itemvalue="Python.1904_01타일" />
+        <item itemvalue="Python.블록 이동하기_손초능" />
         <item itemvalue="Python.practice" />
-        <item itemvalue="Python.5208_전기버스2" />
-        <item itemvalue="Python.5209_최소 생산 비용" />
+        <item itemvalue="Python.5248_그룹 나누기" />
+        <item itemvalue="Python.5247_연산" />
+        <item itemvalue="Python.자물쇠와 열쇠_손초능" />
       </list>
     </recent_temporary>
   </component>
@@ -503,76 +466,76 @@
     </state>
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585833294616" />
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751752653" />
-    <state width="1899" height="366" key="GridCell.Tab.0.bottom" timestamp="1589769052362">
+    <state width="1899" height="366" key="GridCell.Tab.0.bottom" timestamp="1590051023805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="299" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587851841621" />
-    <state width="1899" height="366" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589769052362" />
+    <state width="1899" height="366" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590051023805" />
     <state width="746" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589682160821" />
     <state width="698" height="367" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="366" key="GridCell.Tab.0.center" timestamp="1589769052361">
+    <state width="1899" height="366" key="GridCell.Tab.0.center" timestamp="1590051023805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="299" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587851841620" />
-    <state width="1899" height="366" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589769052361" />
+    <state width="1899" height="366" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590051023805" />
     <state width="746" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589682160821" />
     <state width="698" height="367" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1899" height="366" key="GridCell.Tab.0.left" timestamp="1589769052361">
+    <state width="1899" height="366" key="GridCell.Tab.0.left" timestamp="1590051023805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098447" />
     <state width="1515" height="299" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587851841620" />
-    <state width="1899" height="366" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589769052361" />
+    <state width="1899" height="366" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590051023805" />
     <state width="746" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589682160821" />
     <state width="698" height="367" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1899" height="366" key="GridCell.Tab.0.right" timestamp="1589769052362">
+    <state width="1899" height="366" key="GridCell.Tab.0.right" timestamp="1590051023805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
     <state width="1515" height="299" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587851841620" />
-    <state width="1899" height="366" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589769052362" />
+    <state width="1899" height="366" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590051023805" />
     <state width="746" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589682160821" />
     <state width="698" height="367" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="339" key="GridCell.Tab.1.bottom" timestamp="1589459602165">
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom" timestamp="1590045108498">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839999" />
     <state width="1515" height="256" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="339" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589459602165" />
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590045108498" />
     <state width="746" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587888723239" />
     <state width="698" height="367" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966290" />
-    <state width="1899" height="339" key="GridCell.Tab.1.center" timestamp="1589459602165">
+    <state width="1899" height="339" key="GridCell.Tab.1.center" timestamp="1590045108497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="339" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589459602165" />
+    <state width="1899" height="339" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590045108497" />
     <state width="746" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587888723238" />
     <state width="698" height="367" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="339" key="GridCell.Tab.1.left" timestamp="1589459602164">
+    <state width="1899" height="339" key="GridCell.Tab.1.left" timestamp="1590045108496">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="339" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589459602164" />
+    <state width="1899" height="339" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590045108496" />
     <state width="746" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587888723238" />
     <state width="698" height="367" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1899" height="339" key="GridCell.Tab.1.right" timestamp="1589459602165">
+    <state width="1899" height="339" key="GridCell.Tab.1.right" timestamp="1590045108497">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="340" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586484839998" />
     <state width="1515" height="256" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586305696081" />
     <state width="1515" height="256" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1586441593708" />
-    <state width="1899" height="339" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589459602165" />
+    <state width="1899" height="339" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590045108497" />
     <state width="746" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587888723239" />
     <state width="698" height="367" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
     <state x="2614" y="68" key="SettingsEditor" timestamp="1587900379895">
@@ -599,10 +562,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586515407085" />
-    <state x="439" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585785641897">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2469" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1590041439294">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="439" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585785641897" />
+    <state x="2469" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1590041439294" />
     <state x="439" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585389433030" />
   </component>
   <component name="XDebuggerManager">
@@ -872,11 +836,37 @@
           <line>20</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A형보충문제/문자열 압축_손초능.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 수업/5248_그룹 나누기.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 수업/5247_연산.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 수업/5248_그룹 나누기.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/알고리즘 수업/5248_그룹 나누기.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="arr" language="Python" />
+        <watch expression="rank" language="Python" />
       </configuration>
     </watches-manager>
   </component>

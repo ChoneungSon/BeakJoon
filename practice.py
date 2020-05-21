@@ -2,4 +2,6 @@
 # b = a[::-1]
 # print(b)
 
-print(1000000%15746)
+a = {'a'}
+for i in a:
+    print(i)
