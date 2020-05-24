@@ -14,8 +14,9 @@ def solution(board):
         for i in range(4):
             x1, y1 = point1[0] + move[i][0][0], point1[1] + move[i][0][1]
             x2, y2 = point2[0] + move[i][1][0], point2[1] + move[i][1][1]
-            if board[x2][y2] == 0 and visited[x2][y2] > visited[point2[0]][point2[1]]+1:
-                visited[x2][y2] = visited[point2[0]][point2[1]] + 1
+            if board[x1][y1] == board[x2][y2] == 0 and (visited[x1][y1] >= visited[point1[0]][point1[1]]+1 or visited[x2][y2] >= visited[point2[0]][point2[1]]+1):
+                if visited[x1][y1] >= visited[point1[0]][point1[1]]+1: visited[x1][y1] = visited[point1[0]][point1[1]] + 1
+                elif visited[x2][y2] >= visited[point2[0]][point2[1]]+1: visited[x2][y2] = visited[point2[0]][point2[1]] + 1
                 q.append(((x1, y1), (x2,y2), dest))
         for i in range(4):
             x_set, y_set, count = {point1[0], point2[0]}, {point1[1], point2[1]}, 0
@@ -25,9 +26,13 @@ def solution(board):
             for x in x_set:
                 for y in y_set:
                     if board[x][y] == 0: count+=1
-            if count == 4 and board[x1][y1] == board[x2][y2] == 0 and visited[x2][y2] > visited[point2[0]][point2[1]]+1:
-                visited[x2][y2] = visited[point2[0]][point2[1]]+1
-                q.append(((x1, y1), (x2,y2), (dest+1)%2))
+            if count == 4 and board[x1][y1] == board[x2][y2] == 0 and (visited[x1][y1] >= visited[point1[0]][point1[1]]+1 or visited[x2][y2] >= visited[point2[0]][point2[1]]+1):
+                if visited[x1][y1] >= visited[point1[0]][point1[1]] + 1:
+                    visited[x1][y1] = visited[point1[0]][point1[1]] + 1
+                elif visited[x2][y2] >= visited[point2[0]][point2[1]] + 1:
+                    visited[x2][y2] = visited[point2[0]][point2[1]] + 1
+                q.append(((x1,y1), (x2,y2), (dest+1)%2))
+    for i in range(n+2): print(visited[i])
     return visited[n][n]
 
 
@@ -37,4 +42,15 @@ print(solution([
     [0, 1, 1, 1, 1],
     [0, 0, 1, 1, 1],
     [0, 0, 0, 0, 0]
+]))
+
+print(solution([
+    [0, 0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 1, 0, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0, 1, 0, 0],
 ]))
