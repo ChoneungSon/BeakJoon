@@ -1,15 +1,14 @@
 n = int(input())
-arr, rarr, remove_set, rremove_set = [0] * 501, [0] * 501, set(), set()
+arr = [0] * 501
+length = [0]*501
 for _ in range(n):
     x, y = map(int, input().split())
-    arr[x], rarr[y] = y, x
+    arr[x] = y
 for i in range(1, 501):
     if arr[i]:
+        d = 0
         for j in range(1, i):
-            if arr[j] > arr[i]:
-                remove_set.add(arr[j])
-    if rarr[i]:
-        for j in range(1, i):
-            if rarr[j] > rarr[i]:
-                rremove_set.add(rarr[j])
-print(min(len(remove_set), len(rremove_set)))
+            if arr[j] != 0 and arr[j] < arr[i]:
+                d = max(d, length[j])
+        length[i] = d+1
+print(n-max(length))

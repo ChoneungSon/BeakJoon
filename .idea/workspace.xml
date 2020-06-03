@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A형보충문제/가장 긴 바이토닉 부분 수열_손초능.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형보충문제/전깃줄_손초능.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/멀쩡한 사각형_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/멀쩡한 사각형_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/종이접기_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/종이접기_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/지형이동_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/지형이동_손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형보충문제/전깃줄_손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/전깃줄_손초능.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +78,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/멀쩡한 사각형_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="매칭 점수_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/매칭 점수_손초능.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,27 +275,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="매칭 점수_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BeakJoon" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/매칭 점수_손초능.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="종이접기_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BeakJoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,6 +288,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/종이접기_손초능.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="전깃줄_손초능" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeakJoon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/A형보충문제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A형보충문제/전깃줄_손초능.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,39 +420,39 @@
     </state>
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585833294616" />
     <state x="826" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583751752653" />
-    <state width="1515" height="204" key="GridCell.Tab.0.bottom" timestamp="1591102273867">
+    <state width="1515" height="204" key="GridCell.Tab.0.bottom" timestamp="1591195253899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
-    <state width="1515" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591102273867" />
+    <state width="1515" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591195253899" />
     <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591057778837" />
     <state width="1515" height="366" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590051421014" />
     <state width="698" height="367" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
-    <state width="1515" height="204" key="GridCell.Tab.0.center" timestamp="1591102273867">
+    <state width="1515" height="204" key="GridCell.Tab.0.center" timestamp="1591195253898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
-    <state width="1515" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591102273867" />
+    <state width="1515" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591195253898" />
     <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591057778836" />
     <state width="1515" height="366" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590051421014" />
     <state width="698" height="367" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1515" height="204" key="GridCell.Tab.0.left" timestamp="1591102273866">
+    <state width="1515" height="204" key="GridCell.Tab.0.left" timestamp="1591195253897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855423" />
     <state width="1515" height="300" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098447" />
-    <state width="1515" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591102273866" />
+    <state width="1515" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591195253897" />
     <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591057778836" />
     <state width="1515" height="366" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590051421014" />
     <state width="698" height="367" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585065966288" />
-    <state width="1515" height="204" key="GridCell.Tab.0.right" timestamp="1591102273867">
+    <state width="1515" height="204" key="GridCell.Tab.0.right" timestamp="1591195253899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1899" height="397" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1586485855424" />
     <state width="1515" height="300" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586329098448" />
-    <state width="1515" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591102273867" />
+    <state width="1515" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591195253899" />
     <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591057778837" />
     <state width="1515" height="366" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590051421014" />
     <state width="698" height="367" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585065966289" />
@@ -813,6 +829,11 @@
           <url>file://$PROJECT_DIR$/알고리즘 수업/1247_최적 경로.py</url>
           <line>2</line>
           <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/A형보충문제/전깃줄_손초능.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
