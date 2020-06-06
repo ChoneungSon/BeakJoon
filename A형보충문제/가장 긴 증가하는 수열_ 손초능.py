@@ -8,4 +8,4 @@ for i in range(1, n):
         if arr[j] < arr[i] and length[j] > cnt:
             cnt = length[j]
     length[i] = cnt + 1
-print(max(length))
+print(sum(length))
