@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23229aa6-ea5f-4a01-9a29-40e9598db79f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/A형보충문제/방문 길이_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/스킬트리_손초능.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형보충문제/쿠키 구입_손초능.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/LCS.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/LCS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형보충문제/가장 긴 증가하는 수열_ 손초능.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형보충문제/가장 긴 증가하는 수열_ 손초능.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘 수업/1795_인수의 생일파티.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘 수업/1795_인수의 생일파티.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
